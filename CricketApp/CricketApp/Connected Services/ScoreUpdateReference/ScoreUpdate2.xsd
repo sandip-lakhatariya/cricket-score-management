@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:9000/WCFService/ScoreUpdate?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ScoreUpdate" />
+  <xs:element name="CreateTeam">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="matchId" type="xs:int" />
+        <xs:element minOccurs="0" name="teamAId" type="xs:int" />
+        <xs:element minOccurs="0" name="teamBId" type="xs:int" />
+        <xs:element minOccurs="0" name="overs" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreateTeamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreateTeamResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ScoreUpdate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="matchId" type="xs:int" />
+        <xs:element minOccurs="0" name="pid" type="xs:int" />
+        <xs:element minOccurs="0" name="bid" type="xs:int" />
+        <xs:element minOccurs="0" name="runs" type="xs:int" />
+        <xs:element minOccurs="0" name="extra" type="xs:int" />
+        <xs:element minOccurs="0" name="dot" type="xs:boolean" />
+        <xs:element minOccurs="0" name="wickets" type="xs:boolean" />
+        <xs:element minOccurs="0" name="innings" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ScoreUpdateResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="matchId" type="xs:int" />
+        <xs:element minOccurs="0" name="pid1" type="xs:int" />
+        <xs:element minOccurs="0" name="pid2" type="xs:int" />
+        <xs:element minOccurs="0" name="bid" type="xs:int" />
+        <xs:element minOccurs="0" name="innings" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScoreResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ScoreUpdate" minOccurs="0" name="GetScoreResult" nillable="true" type="q1:Score" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPlayerName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="matchId" type="xs:int" />
+        <xs:element minOccurs="0" name="innings" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPlayerNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetPlayerNameResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTeamName">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTeamNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetTeamNameResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="matchId" type="xs:int" />
+        <xs:element minOccurs="0" name="pid" type="xs:int" />
+        <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="innings" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateStatusResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateWinner">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="matchId" type="xs:int" />
+        <xs:element minOccurs="0" name="team" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateWinnerResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamService", "TeamService\TeamService.csproj", "{46B8ED68-7AF8-47E8-ACB2-3F1D5C673573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloService", "..\HelloService\HelloService.csproj", "{8F7611F3-8B77-40F5-8357-6EC4E0DFD3A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46B8ED68-7AF8-47E8-ACB2-3F1D5C673573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B8ED68-7AF8-47E8-ACB2-3F1D5C673573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B8ED68-7AF8-47E8-ACB2-3F1D5C673573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B8ED68-7AF8-47E8-ACB2-3F1D5C673573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F7611F3-8B77-40F5-8357-6EC4E0DFD3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7611F3-8B77-40F5-8357-6EC4E0DFD3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7611F3-8B77-40F5-8357-6EC4E0DFD3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7611F3-8B77-40F5-8357-6EC4E0DFD3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4B3EEAC-49CB-4F51-B99B-E1DDE4954E1E}
+	EndGlobalSection
+EndGlobal

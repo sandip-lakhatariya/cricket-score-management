@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="3618be60-750b-41ef-beee-6205777fe125" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9000/WCFService/PlayerService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PlayerService.xsd" MetadataType="Schema" ID="09ade981-f4ef-462a-ac13-b9f1f4c50ad3" SourceId="1" SourceUrl="http://localhost:9000/WCFService/PlayerService?xsd=xsd3" />
+    <MetadataFile FileName="PlayerService1.xsd" MetadataType="Schema" ID="a5ad358b-4b67-42ed-9543-dff40c2a0e14" SourceId="1" SourceUrl="http://localhost:9000/WCFService/PlayerService?xsd=xsd2" />
+    <MetadataFile FileName="PlayerService2.xsd" MetadataType="Schema" ID="4f67ed22-25fd-4026-8d9b-c57f9c016f63" SourceId="1" SourceUrl="http://localhost:9000/WCFService/PlayerService?xsd=xsd1" />
+    <MetadataFile FileName="PlayerService3.xsd" MetadataType="Schema" ID="9224cc80-8d32-4a9e-8402-a902facc431a" SourceId="1" SourceUrl="http://localhost:9000/WCFService/PlayerService?xsd=xsd0" />
+    <MetadataFile FileName="PlayerService.wsdl" MetadataType="Wsdl" ID="98a3b134-41a5-4466-a731-d91ac045d86d" SourceId="1" SourceUrl="http://localhost:9000/WCFService/PlayerService" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

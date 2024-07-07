@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="a089be94-b341-4f0b-8e5d-9e12b441d9b2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9000/WCFService/TeamService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TeamService.xsd" MetadataType="Schema" ID="0d83a5ca-c828-4394-811b-194a488903df" SourceId="1" SourceUrl="http://localhost:9000/WCFService/TeamService?xsd=xsd0" />
+    <MetadataFile FileName="TeamService1.xsd" MetadataType="Schema" ID="8fe6a26e-5cd5-4068-99bd-bc82103d350e" SourceId="1" SourceUrl="http://localhost:9000/WCFService/TeamService?xsd=xsd1" />
+    <MetadataFile FileName="TeamService2.xsd" MetadataType="Schema" ID="8206fd2d-e893-46eb-ac0c-034f6dc13f0a" SourceId="1" SourceUrl="http://localhost:9000/WCFService/TeamService?xsd=xsd2" />
+    <MetadataFile FileName="TeamService3.xsd" MetadataType="Schema" ID="23e01411-5e9a-4342-83d9-5e7352098d7c" SourceId="1" SourceUrl="http://localhost:9000/WCFService/TeamService?xsd=xsd3" />
+    <MetadataFile FileName="TeamService.wsdl" MetadataType="Wsdl" ID="0f711c9b-0fc5-4336-ad6f-23771c2ed471" SourceId="1" SourceUrl="http://localhost:9000/WCFService/TeamService" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

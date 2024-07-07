@@ -1,0 +1,7 @@
+E:\WSD\Project\TeamService\TeamService\bin\Debug\TeamService.dll.config
+E:\WSD\Project\TeamService\TeamService\bin\Debug\TeamService.dll
+E:\WSD\Project\TeamService\TeamService\bin\Debug\TeamService.pdb
+E:\WSD\Project\TeamService\TeamService\obj\Debug\TeamService.csproj.AssemblyReference.cache
+E:\WSD\Project\TeamService\TeamService\obj\Debug\TeamService.csproj.CoreCompileInputs.cache
+E:\WSD\Project\TeamService\TeamService\obj\Debug\TeamService.dll
+E:\WSD\Project\TeamService\TeamService\obj\Debug\TeamService.pdb

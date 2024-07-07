@@ -1,0 +1,7 @@
+E:\WSD\Project\ScoreUpdate\ScoreUpdate\bin\Debug\ScoreUpdate.dll.config
+E:\WSD\Project\ScoreUpdate\ScoreUpdate\bin\Debug\ScoreUpdate.dll
+E:\WSD\Project\ScoreUpdate\ScoreUpdate\bin\Debug\ScoreUpdate.pdb
+E:\WSD\Project\ScoreUpdate\ScoreUpdate\obj\Debug\ScoreUpdate.csproj.AssemblyReference.cache
+E:\WSD\Project\ScoreUpdate\ScoreUpdate\obj\Debug\ScoreUpdate.csproj.CoreCompileInputs.cache
+E:\WSD\Project\ScoreUpdate\ScoreUpdate\obj\Debug\ScoreUpdate.dll
+E:\WSD\Project\ScoreUpdate\ScoreUpdate\obj\Debug\ScoreUpdate.pdb

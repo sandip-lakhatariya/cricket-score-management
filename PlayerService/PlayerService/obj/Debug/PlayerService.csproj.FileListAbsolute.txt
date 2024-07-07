@@ -1,0 +1,7 @@
+E:\WSD\Project\PlayerService\PlayerService\bin\Debug\PlayerService.dll.config
+E:\WSD\Project\PlayerService\PlayerService\bin\Debug\PlayerService.dll
+E:\WSD\Project\PlayerService\PlayerService\bin\Debug\PlayerService.pdb
+E:\WSD\Project\PlayerService\PlayerService\obj\Debug\PlayerService.csproj.AssemblyReference.cache
+E:\WSD\Project\PlayerService\PlayerService\obj\Debug\PlayerService.csproj.CoreCompileInputs.cache
+E:\WSD\Project\PlayerService\PlayerService\obj\Debug\PlayerService.dll
+E:\WSD\Project\PlayerService\PlayerService\obj\Debug\PlayerService.pdb
